@@ -1,0 +1,119 @@
+table{
+	margin-top: 20px;
+    margin-left: 50px;
+    font-family: -webkit-pictograph;
+    font-size: larger;
+}
+.p1{
+	width:75%;
+}
+.app{
+    display: grid;
+    place-items: center;
+    height: 82vh;
+    background: url(/img/dxc_technology_logo_new.png) no-repeat left top;
+}
+.appbody{
+    display: flex;
+    background-color: #ededed;
+    margin-top: -50px;
+    height: 75vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.sidebarTest{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    border-right: 1px solid lightgray;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    margin-top: 10px;
+}
+.header{
+    display: flex;
+    align-self: center;
+    font-size: x-large;
+}
+.btn{
+	font-family: math;
+	font-size: large;
+    border-radius: 12px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    padding: 15px;
+    height: 50px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    border: none;
+    margin-top:20px;
+}
+.btn:hover{
+    background: blue;
+    color: white;
+}
+.fa{
+    margin-right: 5px;
+}
+.form-element-wrapper{
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  .form-element-wrapper>spring{
+    font-size: 15px;
+    color: #ba95fb;
+  }
+  
+  .form-element-wrapper > input {
+    border: 1px solid #B7B7B7;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: Nunito, sans-serif;
+    color: #000;
+    border-radius: 5px;
+    width: 95%;
+  }
+  .form-element {
+    padding: 13px 12px;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+  }
+  .form-button{
+    margin-right: 15px;
+    margin-left: 20px;
+    width: 80px;
+    height: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+  .btn-submit-form {
+    cursor: pointer;
+    color: #fff;
+    font-family: Nunito, sans-serif;
+    background: #6f22f5;
+    box-sizing: content-box;
+  
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.13);
+    transition: all 0.2s ease;
+  }
+  .btn-submit-form:hover {
+    background: #4468e4;
+  }
+  .btn-submit-form:active, .btn-submit-form:focus {
+    outline: none;
+    background: #2e56e0;
+  }
+  .btnCreate{
+  	margin-top:20px;
+  	text-align: right;
+    margin-right: 70px;}
+ .error{
+ 	color:red;
+ }
